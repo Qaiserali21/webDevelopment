@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>Z Index</title>
+    </head>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div{
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            border: 1px solid black;
+            font-size: 25px;
+        }
+        #box1{
+            background-color: darkseagreen;
+            top: 100px;
+            left: 50px;
+            
+        }
+        #box2{
+            background-color: peachpuff;
+            top: 150px;
+            left: 100px;
+            
+        }
+        #box3{
+            background-color: lightskyblue;
+            top: 200px;
+            left: 150px;
+            
+        }
+        #box4{
+            background-color: orange;
+            top: 250px;
+            left: 200px;
+            z-index: 1;
+
+        }
+    </style>
+    <body>
+        <h1>Css Z Index</h1>
+        <div id="box1">A</div>
+        <div id="box2">B</div>
+        <div id="box3">C</div>
+        <div id="box4">D</div>
+    </body>
+</html>
