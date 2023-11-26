@@ -1,0 +1,116 @@
+<html>
+    <head>
+        <title>Html Or Css Basic Layout</title>
+    </head>
+    <style>
+        body{
+            background-color: slateblue;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #wrapper{
+            border: 0px solid black;
+            width: 1000px;
+            background-color: white;
+            margin: 0 auto;
+        }
+        #header{
+            background-color: crimson;
+            height: 100px;
+        }
+        #header h1{
+            padding: 30px 0 0 20px;
+            margin: 20px 0 0 0;
+        }
+        #menu{
+            background-color: yellowgreen;
+        }
+        #menu li{
+            
+            display: inline-block;
+        }
+        #menu ul{
+            padding: 0;
+            margin: 0;
+        }
+        #menu li a{
+            display: block;
+            padding: 10px 13px;
+            text-decoration: none;
+            color: black;
+        }
+        #menu li a:hover{
+            background-color: crimson;
+            color: white;
+        }
+        #sidebar{
+            background-color: yellowgreen;
+            width: 200px;
+            min-height: 450px;
+            float: right;
+        }
+        #sidebar li{
+            margin-left: 20px;
+            margin-top: 30px;
+            
+        }
+        #sidebar li a:hover{
+            background-color: crimson;
+            color: white;
+        }
+        #sidebar ul{
+            padding: 5px;
+        }
+        #sidebar a{
+            display: inline-block;
+            padding: 10px 13px;
+            text-decoration: none;
+            color: black;
+            list-style-position: inside;
+        }
+        #content{
+            width: 800px;
+            min-height: 450px;
+            float: left;
+            padding: 10px;
+            box-sizing: border-box;
+            text-align: justify;
+        }
+        #footer{
+            background-color: crimson;
+            padding: 5px;
+            text-align: right;
+            clear: both;
+            
+        }
+
+    </style>
+    <body>
+        <div id="wrapper">
+            <div id="header"><h1>Website Name</h1></div>
+            <div id="menu">
+                <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Gallery</a></li>
+                <li><a href="">Contact Us</a></li>
+                </ul>
+            </div>
+            <div id="content">
+                <h2>Sub Headings</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id tristique purus. Praesent pretium erat eu enim finibus, nec mollis nulla elementum. Sed gravida at diam vitae hendrerit. In tincidunt, magna sed laoreet cursus, sapien turpis feugiat ipsum, sit amet sagittis nunc sem nec turpis. Donec mattis libero leo, et viverra elit vestibulum ac. Pellentesque eu convallis odio, ac vestibulum nibh. Vivamus vel facilisis nisi. Proin tempus, diam ac vulputate rhoncus, ipsum mi lacinia massa, et aliquet turpis purus id libero. Phasellus imperdiet, justo ut tristique sodales, dolor nisi pulvinar ipsum, efficitur laoreet odio ipsum in erat. Curabitur in risus mattis, malesuada risus vitae, suscipit eros. Duis tempor consequat orci, ut ultrices nisl aliquam non. Donec sagittis ac ante id ultricies. Aliquam in viverra orci. Nunc sed sodales nulla. Fusce nulla felis, dictum quis eros non, dictum finibus ipsum. Cras convallis eros at nisi varius tristique.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id tristique purus. Praesent pretium erat eu enim finibus, nec mollis nulla elementum. Sed gravida at diam vitae hendrerit. In tincidunt, magna sed laoreet cursus, sapien turpis feugiat ipsum, sit amet sagittis nunc sem nec turpis. Donec mattis libero leo, et viverra elit vestibulum ac. Pellentesque eu convallis odio, ac vestibulum nibh. Vivamus vel facilisis nisi. Proin tempus, diam ac vulputate rhoncus, ipsum mi lacinia massa, et aliquet turpis purus id libero. Phasellus imperdiet, justo ut tristique sodales, dolor nisi pulvinar ipsum, efficitur laoreet odio ipsum in erat. Curabitur in risus mattis, malesuada risus vitae, suscipit eros. Duis tempor consequat orci, ut ultrices nisl aliquam non. Donec sagittis ac ante id ultricies. Aliquam in viverra orci. Nunc sed sodales nulla. Fusce nulla felis, dictum quis eros non, dictum finibus ipsum. Cras convallis eros at nisi varius tristique.</p> 
+            </div>
+            <div id="sidebar">
+                <li><a href="">Home</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Gallery</a></li>
+                <li><a href="">Contact Us</a></li>
+            </div>
+            <div id="footer">
+                WebSite Name@CopyRight.
+            </div>
+        </div>
+    </body>
+</html>
