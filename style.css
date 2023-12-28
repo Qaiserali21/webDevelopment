@@ -1,0 +1,44 @@
+body {
+    background: #fff;
+  }
+.container{
+    background: #fff;
+    height: 500px;
+    margin-left: 165px;
+}
+.container h3{
+    font-size: 50px;
+    margin-bottom: 100px;
+    margin-left: -135px;
+}
+
+.row i{
+    margin-left: 38px;
+    margin-bottom: 5px;
+    font-size: 50px;
+}
+
+.row a{
+    color: black;
+    text-decoration: none;
+}
+
+.readmore{
+    color: red;
+    font-size: 15px;
+}
+
+#row{
+    background: #009EFB;
+    margin-top: 52px;
+}
+
+#anchor a{
+    color: red;
+    margin-left: 20px;
+}
+
+#newjob a{
+    color: red;
+    margin-left: 20px;
+}
