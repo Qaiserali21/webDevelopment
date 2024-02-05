@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link  rel="shortcut icon" type="image/x-icon" href="https://consultation.my-bmi.co.uk/media/favicon/stores/1/myBMI-Fav-icon.png" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="navbar-bottombar d-none1 d-lg-block" role="navigation" aria-label="dropdown navigation">
+                    <div class="navbar-container d-flex justify-content-end py-2">
+                        <div class="col-md-3">
+                            <div class="search-bar-ipad search-bar d-block">
+                                <a class="d-flex align-items-center">
+                                    <span class="f--white mr-2">Join the community</span>
+                                    <img class="ml-2" width="28" height="28" src="https://facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png?w=512&h=512">
+                                    <img class="ml-2" width="28" height="28" src="https://consultation.my-bmi.co.uk/static/version1702452587/frontend/MyBMI/child/en_GB/images/flag/GB.png" alt="">
+                                    <div class="website-switcher navbar-item has-dropdown is-hoverable">
+                                        <span class="navbar-item navbar-link">  
+                                        </span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="d-flex flex-column justify-content-center align-items-center bg--white consultation-header-section p-2">
+                <a href="/" class="margin: auto; width: 200px">
+                    <img class="align-top" width="200" src="https://consultation.my-bmi.co.uk/static/version1702452587/frontend/MyBMI/child/en_GB/images/myBMI-Logo-Colour-350px.png" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div id="container" class="container mt-3">
+        <div class="progress px-1 mt-5" style="height: 3px;">
+          <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        <div class="step-container d-flex justify-content-between">
+          <div class="step-circle" onclick="displayStep(1)">
+            <span class="icon-your-details-icon f--white-before"></span>
+          </div>
+          
+          <div class="step-circle" onclick="displayStep(2)">
+            <span class="icon-consultation-icon"></span>
+          </div>
+          <div class="step-circle" onclick="displayStep(3)">
+            <span class="icon-your-treatment-icon"></span>
+          </div>
+          <div class="step-circle" onclick="displayStep(4)">
+            <span class="icon-checkout-icon"></span>
+        </div>
+        </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3">
+                <div class="step-details">
+                  <div class="step-title">Yours Details</div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="step-details">
+                  <div class="step-title">Consultation</div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="step-details">
+                  <div class="step-title">Your Treatment</div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="step-details">
+                  <div class="step-title">Checkout</div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        <form id="multi-step-form">
+          <div class="step step-1">
+            <!-- Step 1 form fields here -->
+            <h3>Step 1</h3>
+            <!-- <div class="mb-3">
+              <label for="field1" class="form-label">Field 1:</label>
+              <input type="text" class="form-control" id="field1" name="field1">
+            </div> -->
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-10 bg-primary">
+                        <h3>this is test</h3>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="btn btn-primary next-step">Next</button>
+          </div>
+      
+          <div class="step step-2 d-none">
+            <!-- Step 2 form fields here -->
+            <h3>Step 2</h3>
+            <div class="mb-3">
+              <label for="field2" class="form-label">Field 2:</label>
+              <input type="text" class="form-control" id="field2" name="field2">
+            </div>
+            <button type="button" class="btn btn-primary prev-step">Previous</button>
+            <button type="button" class="btn btn-primary next-step">Next</button>
+          </div>
+      
+          <div class="step step-3 d-none">
+            <!-- Step 3 form fields here -->
+            <h3>Step 3</h3>
+            <div class="mb-3">
+              <label for="field3" class="form-label">Field 3:</label>
+              <input type="text" class="form-control" id="field3" name="field3">
+            </div>
+            <button type="button" class="btn btn-primary prev-step">Previous</button>
+            <button type="submit" class="btn btn-success">Submit</button>
+          </div>
+        </form>
+      </div>
+
+      <script src="js/javascript.js"></script>
+</body>
+</html>
